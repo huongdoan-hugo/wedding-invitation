@@ -1,0 +1,68 @@
+
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#8b101c">
+  <title>Thiệp cưới | Cô dâu & Chú rể</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="hero">
+    <p class="eyebrow">TRÂN TRỌNG KÍNH MỜI</p>
+    <div class="ornament">❀ ✦ ❀</div>
+    <h1>Thành Hôn</h1>
+    <p class="names">Cô dâu &amp; Chú rể</p>
+    <p>Ngày 20 tháng 12 năm 2026</p>
+    <button id="openInvitation">Mở thiệp</button>
+  </header>
+
+  <main id="invitation" hidden>
+    <section class="section">
+      <img class="couple-photo"
+           src="assets/couple.jpg"
+           alt="Ảnh cưới của cô dâu và chú rể">
+      <h2>Trân trọng kính mời</h2>
+      <p>Sự hiện diện của bạn là niềm vui của gia đình chúng tôi.</p>
+    </section>
+
+    <section class="section">
+      <h2>Đếm ngược ngày vui</h2>
+      <p id="countdown">Đang tính thời gian...</p>
+    </section>
+
+    <section class="section">
+      <h2>Địa điểm tổ chức</h2>
+      <p>Địa chỉ sẽ được cập nhật tại đây.</p>
+      <a id="mapLink" href="#" target="_blank"
+         rel="noopener">Mở Google Maps</a>
+    </section>
+
+    <section class="section">
+      <h2>Xác nhận tham dự</h2>
+      <a id="rsvpLink" href="#" target="_blank"
+         rel="noopener">Gửi xác nhận tham dự</a>
+    </section>
+
+    <section class="section">
+      <h2>Mừng cưới</h2>
+      <img class="gift-qr" src="assets/gift-qr.png"
+           alt="Mã QR mừng cưới">
+    </section>
+
+    <section class="section">
+      <button id="musicToggle">Phát nhạc ♫</button>
+      <audio id="weddingMusic"
+             src="assets/wedding-music.mp3"
+             loop></audio>
+    </section>
+
+    <footer class="section">
+      Trân trọng cảm ơn ❤️
+    </footer>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>

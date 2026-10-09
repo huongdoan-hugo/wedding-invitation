@@ -1,5 +1,5 @@
 
-const weddingDate = new Date("2026-12-20T11:00:00+07:00");
+const weddingDate = new Date("2027-02-14T11:00:00+07:00");
 
 document.querySelector("#openInvitation").addEventListener("click", () => {
   document.querySelector("#invitation").hidden = false;
